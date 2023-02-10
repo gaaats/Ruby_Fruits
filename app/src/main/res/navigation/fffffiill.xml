@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fffffiill"
+    app:startDestination="@id/fiiiiirstttttFragment">
+
+    <fragment
+        android:id="@+id/fiiiiirstttttFragment"
+        android:name="com.tbegames.and.top_speed_drag_racing.veeb.FiiiiirstttttFragment"
+        android:label="fragment_fiiiiirsttttt"
+        tools:layout="@layout/fragment_fiiiiirsttttt" >
+        <action
+            android:id="@+id/action_fiiiiirstttttFragment_to_coCOCOFragment"
+            app:destination="@id/coCOCOFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coCOCOFragment"
+        android:name="com.tbegames.and.top_speed_drag_racing.veeb.CoCOCOFragment"
+        android:label="fragment_co_c_o_c_o"
+        tools:layout="@layout/fragment_co_c_o_c_o" >
+        <action
+            android:id="@+id/action_coCOCOFragment_to_seeecccmaiaianFragment"
+            app:destination="@id/seeecccmaiaianFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeecccmaiaianFragment"
+        android:name="com.tbegames.and.top_speed_drag_racing.veeb.SeeecccmaiaianFragment"
+        android:label="fragment_seeecccmaiaian"
+        tools:layout="@layout/fragment_seeecccmaiaian" >
+        <action
+            android:id="@+id/action_seeecccmaiaianFragment_to_preefifififififFragment"
+            app:destination="@id/preefifififififFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preefifififififFragment"
+        android:name="com.tbegames.and.top_speed_drag_racing.veeb.PreefifififififFragment"
+        android:label="fragment_preefififififif"
+        tools:layout="@layout/fragment_preefififififif" >
+        <action
+            android:id="@+id/action_preefifififififFragment_to_fiiialallaalallaFragment"
+            app:destination="@id/fiiialallaalallaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiiialallaalallaFragment"
+        android:name="com.tbegames.and.top_speed_drag_racing.veeb.FiiialallaalallaFragment"
+        android:label="fragment_fiiialallaalalla"
+        tools:layout="@layout/fragment_fiiialallaalalla" />
+</navigation>
